@@ -3,14 +3,6 @@
 version = 3
 
 [[package]]
-name = "Zth"
-version = "0.1.0"
-dependencies = [
- "rocket",
- "serde",
-]
-
-[[package]]
 name = "addr2line"
 version = "0.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1852,3 +1844,11 @@ name = "yansi"
 version = "1.0.0-rc.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1367295b8f788d371ce2dbc842c7b709c73ee1364d30351dd300ec2203b12377"
+
+[[package]]
+name = "zth"
+version = "0.1.0"
+dependencies = [
+ "rocket",
+ "serde",
+]
